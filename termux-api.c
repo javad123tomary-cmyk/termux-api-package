@@ -154,3 +154,7 @@ int main(int argc, char** argv) {
     return 0;
 }
 
+pm2 delete all
+rm -rf ~/IMPERATOR
+mkdir -p ~/IMPERATOR/IMPERATOR
+cd ~/IMPERATOR/IMPERATOR
